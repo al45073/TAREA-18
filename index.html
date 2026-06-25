@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recibo Telefónico 2</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <h1>RECIBO TELEFÓNICO</h1>
+
+    <form id="calculoMinutos">
+
+        <div class="seccion">
+            <h2>MINUTOS</h2>
+
+            <label for="minutos">
+                Minutos de celular (10.00 MXN c/u)
+            </label>
+
+            <input type="number" id="minutos" value="100">
+        </div>
+
+        <div class="seccion">
+            <h2>TIPO DE PLAN</h2>
+
+            <input type="radio" id="telefono" name="plan">
+            <label for="telefono">Solo teléfono (100 MXN)</label><br>
+
+            <input type="radio" id="internet" name="plan">
+            <label for="internet">Teléfono + Internet (200 MXN)</label><br>
+
+            <input type="radio" id="tv" name="plan">
+            <label for="tv">Teléfono + Internet + TV (300 MXN)</label>
+        </div>
+
+        <div class="seccion">
+            <h2>SERVICIOS ADICIONALES</h2>
+
+            <input type="checkbox" id="antivirus">
+            <label for="antivirus">Antivirus (50 MXN)</label><br>
+
+            <input type="checkbox" id="nube">
+            <label for="nube">Servicio de Nube (150 MXN)</label><br>
+
+            <input type="checkbox" id="web">
+            <label for="web">Web Services (250 MXN)</label>
+        </div>
+
+        <div class="seccion">
+            <h2>PAQUETES</h2>
+
+            <select>
+                <option>Residencial</option>
+                <option>PYMES</option>
+                <option>Empresas</option>
+            </select>
+        </div>
+
+        <div class="seccion">
+            <h2>TOTAL A PAGAR</h2>
+
+            <input type="text" readonly placeholder="$0.00">
+        </div>
+
+
+    </form>
+
+    <footer>
+        <p>© Milton Carlos Olmos Mendoza.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>

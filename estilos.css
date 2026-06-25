@@ -1,0 +1,59 @@
+/* PALABRA CLAVE */
+body{
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* HEXADECIMAL */
+.contenedor{
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 3px solid black;
+}
+
+/* RGB */
+h1{
+    color: rgb(210, 240, 255);
+    text-shadow: 3px 3px 5px gray;
+}
+
+.seccion{
+    display: table-cell;
+    width: 20%;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+
+    /* HSL */
+    background-color: hsl(180, 50%, 80%);
+}
+
+h2{
+    color: rgb(0, 100, 200);
+    text-shadow: 2px 2px 4px gray;
+}
+
+input,
+select,
+button{
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
